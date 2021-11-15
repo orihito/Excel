@@ -31,12 +31,14 @@ def Write_Cell():
 
 def Excel_Save():
     #保存
-    wb.save(excel_path)
+    wb.save(excel_name)
 #===============================================================================
 # 関数
 #===============================================================================
 #新規エクセルシートを作成
-Create()
-Excel_Save()
+#Create()
+#Excel_Save()
 Write_Cell()
 Excel_Save()
+print("完了")
+print(excel_path)
